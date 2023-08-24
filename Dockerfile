@@ -15,7 +15,7 @@ RUN npm install --production
 COPY . .
 
 # Уведомление о порте, который будет прослушивать работающее приложение
-EXPOSE 8000
+EXPOSE 8043
 
 # Запуск проекта
 CMD ["npm", "start"] 
